@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import JobDataProvider from './data/JobDataProvider';
 
 function App() {
   return (
+    <JobDataProvider>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,6 +21,7 @@ function App() {
         </a>
       </header>
     </div>
+    </JobDataProvider>
   );
 }
 
