@@ -8,7 +8,7 @@ const JobDataProvider = (props) => {
                 id: '1',
                 name: 'Template 1',
                 templateParameters: [
-                    {"id":"1", "name":"Parameter 1", "type":"text", "required":"true"},
+                    {"id":"1", "name":"Parameter", "type":"text", "required":"true"},
                     {"id":"2", "name":"Client Name", "type":"number", "required":"true"}
                 ]
             },
@@ -16,7 +16,7 @@ const JobDataProvider = (props) => {
                 id: '2',
                 name: 'Template 2',
                 templateParameters: [
-                    {"id":"3", "name":"Parameter 1", "type":"number", "required":"true"},
+                    {"id":"3", "name":"Parameter", "type":"number", "required":"true"},
                     {"id":"4", "name":"Loan Type", "type":"text", "required":"true"},
                     {"id":"5", "name":"Loan Period in Years", "type":"number", "required":"true"}
                 ]
@@ -29,7 +29,7 @@ const JobDataProvider = (props) => {
                 templateId: '1',
                 schedule: 'daily',
                 jobParameters: [
-                    {"id":"1", "name":"Parameter 1", "type":"number", "required":"true", "value":"100"},
+                    {"id":"1", "name":"Parameter", "type":"number", "required":"true", "value":"100"},
                     {"id":"2", "name":"Client Name", "type":"text", "required":"true", "value":"Client Name 1"}
                 ]
             },
@@ -39,7 +39,7 @@ const JobDataProvider = (props) => {
                 templateId: '2',
                 schedule: 'monthly',
                 jobParameters: [
-                    {"id":"3", "name":"Parameter 1", "type":"number", "required":"true", "value":"300.50"},
+                    {"id":"3", "name":"Parameter", "type":"number", "required":"true", "value":"300.50"},
                     {"id":"4", "name":"Loan Type", "type":"text", "required":"true", "value":"Fixed"},
                     {"id":"5", "name":"Loan Period in Years", "type":"number", "required":"true", "value":"30"}
                 ]
