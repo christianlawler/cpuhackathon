@@ -43,7 +43,7 @@ const JobDataProvider = (props) => {
                     {"id":"4", "name":"Loan Type", "type":"text", "required":"true", "value":"Fixed"},
                     {"id":"5", "name":"Loan Period in Years", "type":"number", "required":"true", "value":"30"}
                 ]
-            }
+            },
         ],
         schedules: [
             { id: '1', name: 'daily'},

@@ -1,3 +1,7 @@
+.tdw-container{
+  font-family: sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,124 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.table {
+  display: table;
+  width: 95%;
+  border-collapse: collapse;
+  margin: 25px;
+}
+
+.header-row {
+  display: table-header-group;
+  background-color: #f2f2f2;
+}
+
+.row {
+  display: table-row;
+}
+
+.header-cell, .cell {
+  display: table-cell;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+input, select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left:20px;
+}
+
+/* input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+} */
+
+.job-form input[type=submit], .add-job {
+  width: 15%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-job{
+  margin-left:25px;
+}
+
+.delete-job{
+  background-color: #c92424;
+  color: white;
+  padding: 8px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-job{
+  background-color: orange;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 14px 20px;
+  margin-left: 50px;
+  width:15%;
+}
+
+
+
+.delete-job{
+  background-color: #c92424;
+  color: white;
+  padding: 8px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.job-form input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.job-form {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.tdw-heading{
+  margin-left: 25px;
+}
+
+.tdw-heading-section{
+  background-color: #93186c;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  color: #FFFFFF;
+  padding-left: 25px;
+}
+
+.field-name {
+  display: inline-block;
+  width: 200px;
 }
