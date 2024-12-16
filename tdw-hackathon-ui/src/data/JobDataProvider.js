@@ -9,7 +9,7 @@ const JobDataProvider = (props) => {
                 name: 'Template 1',
                 templateParameters: [
                     {"id":"1", "name":"Parameter", "type":"text", "required":"true"},
-                    {"id":"2", "name":"Client Name", "type":"number", "required":"true"}
+                    {"id":"2", "name":"Client Name", "type":"text", "required":"true"}
                 ]
             },
             {
